@@ -11,7 +11,6 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {}
   redirectUser(id: string) {
-    console.log(id);
     if (id) {
       this.router.navigate(['user', id]);
     }
